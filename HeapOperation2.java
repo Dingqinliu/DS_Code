@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class HeapOperation2 {
         public static void shiftDown(long[] array, int size, int index) {
             while (true) {
-                int leftIndex = 2 * index + 1;
+                int leftIndex = 2 * index +1;
                 if (leftIndex >= size) {
                     return;
                 }
